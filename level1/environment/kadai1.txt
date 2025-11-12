@@ -1,1 +1,1 @@
-This is a sample file.
+This is kadai1.txt fail.
