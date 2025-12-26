@@ -1,0 +1,23 @@
+.main-nav {
+    display: flex;
+    width: 100%; 
+    background-color: #333;
+    margin-top: 30px;
+}
+
+.nav-item {
+    flex: 1; 
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    text-decoration: none; 
+    border-right: 1px solid #555;
+}
+
+.nav-item:last-child {
+    border-right: none;
+}
+
+.nav-item:hover {
+    background-color: #555;
+}
