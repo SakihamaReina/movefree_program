@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-    <title>ポートフォリオサイト</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
 

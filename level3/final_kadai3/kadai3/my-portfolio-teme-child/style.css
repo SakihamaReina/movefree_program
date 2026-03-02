@@ -1,15 +1,15 @@
 /*
- Theme Name:   My Portfolio Theme Child
- Theme URI:    http://example.com/my-portfolio-theme-child/ 
- Description:  My Portfolio Theme Child Theme 
- Author:       Reina Sakihama
- Author URI:   http://example.com 
- Template:     my-portfolio-theme
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, custom-header
- Text Domain:  my-portfolio-theme-child
+ Theme Name:My Portfolio Theme Child
+ Theme URI:http://example.com/my-portfolio-theme-child/ 
+ Description:My Portfolio Theme Child Theme 
+ Author:Reina Sakihama
+ Author URI:http://example.com 
+ Template:my-portfolio-theme
+ Version:1.0.0
+ License:GNU General Public License v2 or later
+ License URI:http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:light, dark, two-columns, custom-header
+ Text Domain:my-portfolio-theme-child
 */
 
 body {
@@ -103,16 +103,13 @@ body {
     font-family:'Kaisei Decol', serif;
     font-size: 50px;
     font-weight: bold;
+    margin-top: 200px;
 }
 
 h2{
     width: 100%;
     font-size: 50px;
     margin-bottom: 100px;
-}
-
-.title{
-    margin-top: 200px;
 }
 
 .subtitle{
@@ -238,8 +235,8 @@ h2{
 
 .close {
     position: absolute;
-    top: -60px;
-    right: -15px;
+    top: 10px;
+    right: 10px;
     color:#3b2a24;
     border-radius: 20px;
     font-size: 16px;
@@ -297,7 +294,7 @@ h2{
     text-align: center;
     opacity: 0;
     transform: translateY(30px);
-    transition: all 0.8s ease;
+    transition: opacity 0.8s ease, transform 0.8s ease;
     transition-delay: 0.3s;
 }
 
