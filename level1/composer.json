@@ -1,0 +1,16 @@
+{
+    "name": "mugiw/level1",
+    "autoload": {
+        "psr-4": {
+            "Mugiw\\Level1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "skip"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
