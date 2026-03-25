@@ -1,4 +1,0 @@
-1.home.php
-2.single.php
-3.page.php
-4.404.php
